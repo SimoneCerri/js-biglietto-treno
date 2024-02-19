@@ -12,4 +12,21 @@ console.log(price);
 
 //if age < 18 = 20 % discount
 //if age > 65 = 40 % discount
+let discount;
+if (age < 18)
+{
+    discount = price * .20 ;
+}
+else if (age > 65)
+{
+    discount = price * .40 ;
+}
+else
+{
+    discount = price ;
+}
+console.log(discount);
+
 //final_price in human - form(2 max numbers after float point)
+let final_price = price - discount ;
+console.log(final_price);
