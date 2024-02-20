@@ -17,7 +17,7 @@ if (age < 18)
 {
     discount = price * .20 ;
 }
-else if (age > 65)
+else if (age >= 65)
 {
     discount = price * .40 ;
 }
